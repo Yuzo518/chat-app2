@@ -1,0 +1,45 @@
+.wrapper{
+  display: flex;
+}
+
+/*サイドバー設定*/
+.side-bar{
+  width: 300px;
+  background-color: #253141;
+}
+/*（サイド）ヘッダー*/
+.side-header{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+/*（サイド）メイン画面*/
+.side-main{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+}
+
+/*メイン画面設定*/
+.main-chat{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+/*（メイン）ヘッダー*/
+.header{
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+/*（メイン）メイン*/
+.main{
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding: 46px 40px 0px;
+}
+/*（メイン）フォーム*/
+.form{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
