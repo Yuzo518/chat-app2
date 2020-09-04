@@ -9,9 +9,9 @@ class RoomsController < ApplicationController
   def create
     @room = Room.new(room_params)
     if @room.save
-      redirect_to root_path
+      redirect_to room_messages_path(@room)
     else
-      render new
+      render :new
     end
   end
 
